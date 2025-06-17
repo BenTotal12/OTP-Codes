@@ -2,13 +2,14 @@ import streamlit as st
 import pyotp
 
 # --- User Configuration ---
-# The dictionary now includes the new users you provided.
+# The dictionary has been updated with the new secret keys for
+# Corona, Eastvale, and San Bernardino.
 USER_KEYS = {
     "Tcchino12": "OUQ5MV6WUSKFBTI2RSWLKAZKME",
     "Tcelmonte": "XUCKOGCXLBN6OXD7YZPZ4HWPA4",
-    "Tccorona": "5RJO4U3POTDE4JF6EXFDHKEUU4",
-    "Tceastvale": "EMQM3LVFC54EF243LKZGG342M4",
-    "Tcsanb": "FIJP4RBZDZMBLZZ5J2H4CXKAYU"
+    "Tccorona": "MYLW7JFLV54TUIO4QMU3WCPSCM",
+    "Tceastvale": "SYMHSNBRJZHFRW2LZCU5D42AIM",
+    "Tcsanb": "L22UKIRPTDRJHDHLHTJO773BZ4"
 }
 
 # --- Streamlit App Interface ---
